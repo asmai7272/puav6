@@ -131,7 +131,7 @@ export function useAuth() {
       email,
       password,
       options: {
-        emailRedirectTo: undefined, // Disable email confirmation
+        emailRedirectTo: window.location.origin, // Redirect to app base URL
       },
     });
     return { data, error };
