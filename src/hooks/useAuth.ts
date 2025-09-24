@@ -21,6 +21,7 @@ export interface StudentUser {
   department: string;
   email: string;
   phone: string | null;
+  role: string;
 }
 
 export function useAuth() {

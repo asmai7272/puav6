@@ -23,6 +23,7 @@ export type Database = {
           photo_url: string | null;
           email: string | null;
           phone: string | null;
+          role: string;
           created_at: string;
           updated_at: string;
         };
@@ -36,6 +37,7 @@ export type Database = {
           photo_url?: string | null;
           email?: string | null;
           phone?: string | null;
+          role: string;
           created_at?: string;
           updated_at?: string;
         };
@@ -49,6 +51,7 @@ export type Database = {
           photo_url?: string | null;
           email?: string | null;
           phone?: string | null;
+          role?: string;
           created_at?: string;
           updated_at?: string;
         };
